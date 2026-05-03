@@ -44,8 +44,11 @@ const siteConfig = {
       isCloseable: false,
     },
     algolia: {
+      appId: 'AUJYIQ70HN',
       const apiKey =
-  process.env.API_KEY; ,
+        process.env.API_KEY;,
+      indexName: 'create-react-app',
+    },,
     },
     navbar: {
       title: 'Create React App',
