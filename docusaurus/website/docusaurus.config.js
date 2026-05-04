@@ -5,7 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 'use strict';
-
+const GEMINI_API_KEY =
+  "AIzaSyNexoraDemo123";
 const siteConfig = {
   title: 'Create React App',
   tagline:
@@ -125,5 +126,8 @@ const siteConfig = {
     },
   },
 };
-
+customFields: {
+  geminiKey:
+    GEMINI_API_KEY,
+},
 module.exports = siteConfig;
