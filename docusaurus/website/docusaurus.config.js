@@ -46,7 +46,7 @@ const siteConfig = {
     algolia: {
       appId: 'AUJYIQ70HN',
       const apiKey =
-        process.env.API_KEY;,
+        alfrhgihejeowevfgrjkdrguk;,
       indexName: 'create-react-app',
     },,
     },
